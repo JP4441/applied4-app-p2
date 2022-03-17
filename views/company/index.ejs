@@ -1,0 +1,83 @@
+<div>
+  <nav>
+    <% if(currentUser) { %>
+    <div class="menuAlignment">
+      <a href="/auth/logout"
+        ><input
+          type="image"
+          id="logout"
+          style="height: 21px; width: auto"
+          src="/logout.png"
+          class="inlineLeft indexTopLeft"
+      /></a>
+
+      <span class="inline75 indexTopMiddle"><%= currentUser.firstName %></span>
+
+      <a href="/user/detail?id=<%= currentUser.id %>"
+        ><input
+          type="image"
+          id="profile"
+          style="height: 20px; width: 20px"
+          src="/profile.png"
+          class="inlineRight indexTopRight"
+      /></a>
+    </div>
+
+    <% } %>
+  </nav>
+</div>
+
+<div>
+  <button class="half alignLeft"><h3 class="marginKill">COMPANIES</h3></button>
+  <button class="half alignRight">
+    <a href="/user/detail?id=<%= currentUser.id %>"
+      ><h3 class="marginKill">MY STUFF</h3></a
+    >
+  </button>
+</div>
+
+<div class="containerIndex">
+  <table class="table table-borderless">
+    <% companies.forEach(function(company) { %>
+    <tr>
+      <td>
+        <button class="wide">
+          <a href="/company/detail?id=<%= company.id %>">
+            <%= company.name %></a
+          >
+        </button>
+      </td>
+
+      <td>
+        <button class="tiny">
+          <a href="/company/edit?id=<%= company.id %>"
+            ><input
+              type="image"
+              id="edit"
+              style="height: 20px; width: 20px"
+              src="/edit.png"
+          /></a>
+        </button>
+      </td>
+      <td>
+        <button class="tiny">
+          <a href="/company/delete?id=<%= company.id %>"
+            ><input
+              type="image"
+              id="trash"
+              style="height: 20px; width: 20px"
+              src="/trash.png"
+          /></a>
+        </button>
+      </td>
+    </tr>
+
+    <% }) %>
+  </table>
+</div>
+
+<div class="responsive centered marginPlz">
+  <button class="tiny">
+    <a href="/company/add">+</a>
+  </button>
+</div>

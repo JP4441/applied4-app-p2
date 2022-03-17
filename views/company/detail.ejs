@@ -1,0 +1,64 @@
+<div>
+  <nav>
+    <div class="menuAlignment">
+      <a href="/company/index"
+        ><input
+          type="image"
+          id="back"
+          style="height: 22px; width: 20px"
+          src="/back.png"
+          class="inlineLeft indexTopLeft"
+      /></a>
+
+      <span><h3 class="addTopMiddle">COMPANY DETAILS</h3></span>
+    </div>
+  </nav>
+</div>
+
+<div>
+  <button class="half">
+    <a href="/company/edit?id=<%= company.id %>">Edit</a>
+  </button>
+  <button class="half">
+    <a href="/company/delete?id=<%= company.id %>">Delete</a>
+  </button>
+</div>
+
+<div class="form-group containerIndex">
+  <div class="form-control">
+    <label>Company Name:</label>
+    <h4><%= company.name %></h4>
+  </div>
+  <div class="form-control">
+    <label>Person of Interest/Contact:</label>
+    <h4><%= company.personOfInterest %></h4>
+  </div>
+  <div class="form-control">
+    <label>Applied When?</label>
+    <h4><%= company.appliedWhen %></h4>
+  </div>
+  <div class="form-control">
+    <label>Excitement Level for Company:</label>
+    <h4><%= company.rating %>/5</h4>
+  </div>
+  <div class="form-control">
+    <label>Position Applying for:</label>
+    <h4><%= company.jobTitle %></h4>
+  </div>
+  <div class="form-control">
+    <label>Location:</label>
+    <h4><%= company.location %></h4>
+  </div>
+  <div class="form-control">
+    <label>Applied How?</label>
+    <h4><%= company.appliedHow %></h4>
+  </div>
+  <div class="form-control">
+    <label>Did they respond yet?</label>
+    <h4><%= company.response %></h4>
+  </div>
+  <div class="form-control">
+    <label>What note have you sent already?</label>
+    <h4><%= company.noteSent %></h4>
+  </div>
+</div>

@@ -1,0 +1,103 @@
+<div>
+  <nav>
+    <div class="menuAlignment">
+      <a href="/user/detail?id=<%= currentUser.id %>"
+        ><input
+          type="image"
+          id="back"
+          style="height: 22px; width: 20px"
+          src="/back.png"
+          class="inlineLeft indexTopLeft"
+      /></a>
+
+      <span><h3 class="addTopMiddle">EDIT VERBS</h3></span>
+    </div>
+  </nav>
+</div>
+
+</br>
+
+<div class="containerIndex">
+<form
+  method="post"
+  action="/user/update?_method=PUT"
+>
+
+  <div>
+    <label>My Personal Statement:</label>
+
+    <textarea
+      type="text"
+      name="personalStatement"
+      class="form-control"
+      rows="5"
+      cols="40"
+    >
+<%= user.personalStatement %></textarea
+    >
+  </div>
+
+  <div>
+    <label>My Elevator Pitch:</label>
+    <textarea
+      type="text"
+      name="elevatorPitch"
+      class="form-control"
+      rows="5"
+      cols="40"
+    >
+<%= user.elevatorPitch %></textarea
+    >
+  </div>
+
+  <div>
+    <label>My Brand Statement:</label>
+    <textarea
+      type="text"
+      name="brandStatement"
+      value="<%= user.brandStatement %>"
+      class="form-control"
+      rows="5"
+      cols="40"
+    >
+<%= user.brandStatement %></textarea
+    >
+  </div>
+
+  <div>
+    <label>My Needs:</label>
+    <textarea
+      type="text"
+      name="whatINeed"
+      value="<%= user.whatINeed %>"
+      class="form-control"
+      rows="5"
+      cols="40"
+    >
+<%= user.whatINeed %></textarea
+    >
+  </div>
+
+  <div>
+    <label>Smart Questions:</label>
+    <textarea
+      type="text"
+      name="questionsToASk"
+      value="<%= user.questionsToASk %>"
+      class="form-control"
+      rows="5"
+      cols="40"
+    >
+     <%= user.questionsToASk %>
+  </textarea
+    >
+  </div>
+
+  <input type="hidden" name="id" value="<%= user._id %>" />
+  
+</div>
+<br />
+  <div>
+    <button type="submit" class="wider">SAVE</button>
+  </div>
+</form>

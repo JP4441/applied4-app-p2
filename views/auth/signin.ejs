@@ -1,0 +1,68 @@
+<div class="alertContainer">
+  <% if(alerts.validationErrors) { %> <%
+  alerts.validationErrors.forEach(function(msg) { %>
+  <!-- <div class="alert alert-danger">
+        Your <%= msg.param %> has <%= msg.msg %>
+      </div> -->
+
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    Your <%= msg.param %> has <%= msg.msg %> You should check in on some of
+    those fields below.
+
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="alert"
+      aria-label="Close"
+    ></button>
+  </div>
+
+  <% }) %> <% } %> <% if(alerts.error) { %> <%
+  alerts.error.forEach(function(msg) { %>
+  <!-- <div class="alert alert-danger"><%= msg %></div> -->
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <%= msg %>
+
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="alert"
+      aria-label="Close"
+    ></button>
+  </div>
+  <% }) %> <% } %>
+</div>
+
+<div class="topMargin">
+  <h1>APPLIED4</h1>
+  <h4>CAREER TRACKER</h4>
+</div>
+
+<div class="middleHeight">
+  <h4>Login</h4>
+
+  <form method="POST" action="/auth/signin">
+    <div class="form-group">
+      <label> Email Address </label>
+      <input type="email" name="emailAddress" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label> Password </label>
+      <input type="password" name="password" class="form-control" />
+    </div>
+
+    <br />
+
+    <div>
+      <button type="submit" class="wide">Sign In</button>
+    </div>
+
+    <br />
+
+    <div>
+      Need an account?
+      <a href="/auth/signup">SIGN UP</a>
+    </div>
+  </form>
+</div>

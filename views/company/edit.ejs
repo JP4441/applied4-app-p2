@@ -1,0 +1,132 @@
+<div>
+  <nav>
+    <div class="menuAlignment">
+      <a href="/company/index"
+        ><input
+          type="image"
+          id="back"
+          style="height: 22px; width: 20px"
+          src="/back.png"
+          class="inlineLeft indexTopLeft"
+      /></a>
+
+      <span><h3 class="addTopMiddle">UPDATE COMPANY</h3></span>
+    </div>
+  </nav>
+</div>
+</br>
+
+<div class="containerEdit">
+<form method="post" action="/company/update?_method=PUT" class="form-group ">
+  
+              <div>
+                <label>Company Name:</label>
+                <input
+                  type="text"
+                  name="name"
+                  value="<%= company.name %>"
+                  class="form-control"
+                />
+              </div>
+
+              <div>
+                <label>Person of Interest/Contact:</label>
+
+                <input
+                  type="text"
+                  name="personOfInterest"
+                  value="<%= company.personOfInterest %>"
+                  class="form-control"
+                />
+              </div>
+              <div>
+                <label>Applied When?</label>
+                <h4 class="form-control grayed"><%= date %></h4>
+              </div>
+            
+
+              <!-- <div><%= company.appliedWhen %></div>
+              <div><%= date %></div> -->
+
+              <div>
+                <label for="customRange3" class="form-label"
+                  >Excitement Level for Company:</label
+                >
+                <input
+                  type="range"
+                  name="rating"
+                  value="<%= company.rating %>"
+                  class="form-range"
+                  min="0"
+                  max="5"
+                  step="1"
+                  id="customRange3"
+                />
+              </div>
+
+              <div>
+                <label>Position Applying for:</label>
+                <input
+                  type="text"
+                  name="jobTitle"
+                  value="<%= company.jobTitle %>"
+                  class="form-control"
+                />
+              </div>
+
+              <div>
+                <label>Location:</label>
+                <input
+                  type="text"
+                  name="location"
+                  value="<%= company.location %>"
+                  class="form-control"
+                />
+              </div>
+
+              <div>
+                <label>Applied How:</label>
+                <input
+                  type="text"
+                  name="appliedHow"
+                  value="<%= company.appliedHow %>"
+                  class="form-control"
+                />
+              </div>
+
+              <div>
+                <label>Did they respond yet?</label>
+                <select
+                  name="response"
+                  value="<%= company.response %>"
+                  class="form-control"
+                >
+                  <option value="I just sent my application">
+                    I just sent my application
+                  </option>
+                  <option value="Yes">Yes</option>
+                  <option value="Nope">Nope</option>
+                </select>
+              </div>
+
+              <div>
+                <label>What note have you sent already?</label>
+                <textarea
+                  type="text"
+                  name="noteSent"
+                  value="<%= company.noteSent %>"
+                  class="form-control"
+                  rows="5"
+                  cols="40"
+                >
+                <%= company.noteSent %>
+                </textarea>
+              </div>
+
+              <input type="hidden" name="id" value="<%= company._id %>" />
+  </div>
+            <br>
+            <div>
+              <button type="submit" class="wider">SAVE</button>
+            </div>
+</form>

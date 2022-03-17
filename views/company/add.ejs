@@ -1,0 +1,94 @@
+<div>
+  <nav>
+    <div class="menuAlignment ">
+      <a href="/company/index"
+        ><input
+          type="image"
+          id="back"
+          style="height: 22x; width: 20px"
+          src="/back.png"
+          class="inlineLeft indexTopLeft"
+      /></a>
+
+      <span ><h3 class="addTopMiddle">ADD COMPANY</h3></span>
+    </div>
+  </nav>
+</div>
+<br />
+
+<div class="containerIndex">
+<form method="post" action="/company/add" >
+  <div class="form-group">
+    <label>Company Name:</label>
+    <input name="name" type="text" class="form-control"/>
+  </div>
+
+  <div class="form-group">
+    <label>Person of Interest/Contact:</label>
+    <input name="personOfInterest" type="text" class="form-control" />
+  </div>
+
+  <div class="form-group">
+    <label>Applied When?</label>
+    <input name="appliedWhen" type="date" class="form-control" />
+  </div>
+
+  <div class="form-group">
+
+    <label for="customRange3" class="form-label"
+      >Excitement Level for Company:</label
+    >
+    <input
+      type="range"
+      name="rating"
+      class="form-range"
+      min="0"
+      max="5"
+      step="1"
+      id="customRange3"
+    />
+  </div>
+
+  <div class="form-group">
+    <label>Position Applying for:</label>
+    <input name="jobTitle" type="text" class="form-control" />
+  </div>
+
+  <div class="form-group">
+    <label>Location:</label>
+    <input name="location" type="text" class="form-control" />
+  </div>
+
+  <div class="form-group">
+    <label>Applied How?</label>
+    <input name="appliedHow" type="text" class="form-control" />
+  </div>
+
+  <div class="form-group">
+    <label>Did they respond yet?</label>
+    <select name="response" class="form-control">
+      <!-- <option value=""></option> -->
+      <option value="I just sent my application">
+        I just sent my application
+      </option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label>What note have you sent already?</label>
+    <textarea
+      name="noteSent"
+      type="text"
+      class="form-control"
+      rows="5"
+      cols="40"
+    ></textarea>
+  </div>
+</div>
+</br>
+  <div>
+    <button type="submit" class="wider">SAVE</button>
+  </div>
+</form>
