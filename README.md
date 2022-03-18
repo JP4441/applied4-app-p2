@@ -33,6 +33,6 @@ A simple app where people can keep track of their job applications:
 | :-------------------------: | :-------------------------: |
 | ![](screenshots/image1.png) | ![](screenshots/image2.png) |
 
-|       Edit My Profile       | Profile | Goals |
-| :-------------------------: | :-----: | :---: |
+|       Edit My Profile       |
+| :-------------------------: |
 | ![](screenshots/image3.png) |
