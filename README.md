@@ -28,13 +28,3 @@ A simple app where people can keep track of their job applications:
 - Adobe Illustrator
 
 # Play the game [**HERE**](https://project2applied4.herokuapp.com/)
-
-<img src="/image1.png" alt="avoid" style="height: 65%; width: 65%" />
-        <br />
-      </div>
-      <div class="carousel-item">
-        <img src="/image2.png" alt="avoid" style="height: 65%; width: 65%" />
-        <br />
-      </div>
-      <div class="carousel-item">
-        <img src="/image3.png" alt="avoid" style="height: 65%; width: 65%" />
