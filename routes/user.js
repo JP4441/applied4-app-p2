@@ -16,6 +16,8 @@ router.get('/user/detail', isLoggedIn, userCntrl.user_show_get);
 router.get('/user/edit', isLoggedIn, userCntrl.user_edit_get);
 router.put('/user/update', isLoggedIn, userCntrl.user_update_put);
 router.get('/user/stats', isLoggedIn, userCntrl.user_stats_get);
+router.get('/user/options', isLoggedIn, userCntrl.user_options_get);
+router.get('/user/delete', isLoggedIn, userCntrl.user_delete_get);
 
 // Export router
 module.exports = router;

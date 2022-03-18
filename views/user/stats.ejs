@@ -1,1 +1,52 @@
-<h1>Hello</h1>
+<div>
+  <nav>
+    <div class="menuAlignment">
+      <a href="/user/detail?id=<%= currentUser.id %>"
+        ><input
+          type="image"
+          id="back"
+          style="height: 22px; width: 20px"
+          src="/back.png"
+          class="inlineLeft indexTopLeft"
+      /></a>
+
+      <span><h3 class="addTopMiddle">MY STATS</h3></span>
+    </div>
+  </nav>
+</div>
+
+<h1><%= currentUser.company.length %></h1>
+<br />
+
+<div>
+  <canvas id="myChart"></canvas>
+  <script>
+    const labels = ['January', 'February', 'March', 'April', 'May', 'June'];
+
+    const data = {
+      labels: ['Red', 'Blue', 'Yellow'],
+      datasets: [
+        {
+          label: 'My First Dataset',
+          data: [300, 50, 100],
+          backgroundColor: [
+            'rgb(200, 12, 2)',
+            'rgb(54, 162, 235)',
+            'rgb(255, 205, 86)',
+          ],
+          hoverOffset: 4,
+        },
+      ],
+    };
+
+    const config = {
+      type: 'doughnut',
+      data: data,
+      options: {},
+    };
+  </script>
+</div>
+
+<script>
+  const myChart = new Chart(document.getElementById('myChart'), config);
+</script>

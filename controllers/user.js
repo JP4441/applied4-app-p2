@@ -5,6 +5,7 @@
 
 const moment = require('moment');
 const User = require('../models/User');
+const Company = require('../models/Company');
 
 // HTTP GET - Author By ID
 exports.user_show_get = (req, res) => {
@@ -45,3 +46,33 @@ exports.user_update_put = (req, res) => {
 exports.user_stats_get = (req, res) => {
   res.render('user/stats');
 };
+
+exports.user_options_get = (req, res) => {
+  res.render('user/options');
+};
+
+// HTTP DELETE - USER
+exports.user_delete_get = (req, res) => {
+  Company.deleteMany({ user: req.user.id })
+    .then(() => {
+      User.findByIdAndDelete(req.user._id).then(() => {
+        res.redirect('/auth/signup');
+      });
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
+
+// // HTTP DELETE - USER
+// exports.user_delete_delete = (req, res) => {
+//   Company.deleteMany({ user: req.user.id })
+//     .then(() => {
+//       User.findByIdAndDelete(req.user._id).then(() => {
+//         res.redirect('/auth/signup');
+//       });
+//     })
+//     .catch((err) => {
+//       console.log(err);
+//     });
+// };
