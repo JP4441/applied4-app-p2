@@ -7,11 +7,11 @@ A simple app where people can keep track of their job applications:
 
 # Features:
 
-Login and Sign up
-Add, modify, and delete companies and profile
-Visual cues on age of applications
-Profile Delete
-mobile, desktop, and tablet friendly
+- Login and Sign up
+- Add, modify, and delete companies and profile
+- Visual cues on age of applications
+- Profile Delete
+- Mobile friendly
 
 # Next Steps:
 
