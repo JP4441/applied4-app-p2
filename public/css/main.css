@@ -256,16 +256,16 @@ button:hover {
 }
 
 .homeDivTop {
-  height: 14%;
+  height: 10%;
 }
 
 .homeDivMid {
   height: 56%;
 }
 
-.homeDivBot {
-  height: 15%;
-}
+/* .homeDivBot {
+  height: 20%;
+} */
 
 .grayed {
   background-color: rgb(233, 232, 232);
@@ -287,13 +287,13 @@ button:hover {
 }
 
 .homeButton {
-  height: 100px;
+  height: 60px;
   width: 250px;
   border: none;
   border-radius: 1rem;
-  margin-bottom: 20px;
+  margin-top: 59px;
 }
 
 .getStartedDown {
-  margin-top: 20px;
+  margin-top: 30px;
 }
