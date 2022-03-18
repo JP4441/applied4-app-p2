@@ -1,4 +1,4 @@
-# Application Tracker App
+# Applied4 - Application Tracker App
 
 A simple app where people can keep track of their job applications:
 
