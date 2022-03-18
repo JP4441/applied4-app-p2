@@ -10,16 +10,19 @@ A simple app where people can keep track of their job applications, recruiters, 
 
 - Fix bugs, add statistics page
 
-
 # Technologies Used
 
-- Java Script
+- NodeJS
+- Express 
+- MongoDB 
+- Mongoose
 - HTML
-- CSS
+- CSS 
+- Javascript
+- ChartJS
 - Bootstrap 5
-- Illustrator
-- Node JS
-- Express
+- Heroku
+- Adobe Illustrator
 
 # Play the game [**HERE**](https://project2applied4.herokuapp.com/)
 
