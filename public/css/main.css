@@ -256,11 +256,11 @@ button:hover {
 }
 
 .homeDivTop {
-  height: 25%;
+  height: 14%;
 }
 
 .homeDivMid {
-  height: 60%;
+  height: 56%;
 }
 
 .homeDivBot {
@@ -292,4 +292,8 @@ button:hover {
   border: none;
   border-radius: 1rem;
   margin-bottom: 20px;
+}
+
+.getStartedDown {
+  margin-top: 20px;
 }
