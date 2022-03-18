@@ -28,3 +28,11 @@ A simple app where people can keep track of their job applications:
 - Adobe Illustrator
 
 # Play the game [**HERE**](https://project2applied4.herokuapp.com/)
+
+|            Main             |    Edit Company Details     |
+| :-------------------------: | :-------------------------: |
+| ![](screenshots/image1.png) | ![](screenshots/image2.png) |
+
+|       Edit My Profile       | Profile | Goals |
+| :-------------------------: | :-----: | :---: |
+| ![](screenshots/image3.png) |
