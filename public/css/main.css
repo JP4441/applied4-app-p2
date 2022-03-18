@@ -6,9 +6,9 @@
   color: gray;
 }
 
-/* div {
+div {
   border: 1px solid red;
-} */
+}
 
 .marginKill {
   margin-bottom: -4px;
@@ -90,7 +90,7 @@ body {
   cursor: pointer;
   font-size: 30px;
   border: none;
-  background-color: rgb(216, 237, 225);
+  background-color: rgba(220, 237, 200);
 }
 .wideYellow {
   height: 45px;
@@ -99,7 +99,7 @@ body {
   cursor: pointer;
   font-size: 30px;
   border: none;
-  background-color: rgb(248, 244, 166);
+  background-color: rgb(255, 249, 196);
 }
 .wideRed {
   height: 45px;
@@ -108,7 +108,7 @@ body {
   cursor: pointer;
   font-size: 30px;
   border: none;
-  background-color: rgb(250, 211, 228);
+  background-color: rgb(255, 205, 210);
 }
 
 .half {
