@@ -6,9 +6,9 @@
   color: gray;
 }
 
-div {
+/* div {
   border: 1px solid red;
-}
+} */
 
 .marginKill {
   margin-bottom: -4px;
@@ -255,8 +255,16 @@ button:hover {
   height: 80px;
 }
 
-.homeDivs {
-  height: 33%;
+.homeDivTop {
+  height: 25%;
+}
+
+.homeDivMid {
+  height: 60%;
+}
+
+.homeDivBot {
+  height: 15%;
 }
 
 .grayed {
@@ -272,6 +280,14 @@ button:hover {
 
 .deleteButton {
   height: 250px;
+  width: 250px;
+  border: none;
+  border-radius: 1rem;
+  margin-bottom: 20px;
+}
+
+.homeButton {
+  height: 100px;
   width: 250px;
   border: none;
   border-radius: 1rem;
