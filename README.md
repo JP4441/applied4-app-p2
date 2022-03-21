@@ -52,15 +52,12 @@
 |            Main             |       Create Company        |
 | :-------------------------: | :-------------------------: |
 | ![](screenshots/image1.png) | ![](screenshots/image0.png) |
-
 |    Edit Company Details     |       Create Profile        |
 | :-------------------------: | :-------------------------: |
 | ![](screenshots/image2.png) | ![](screenshots/image4.png) |
-
 |         My Profile          |       Delete Account        |
 | :-------------------------: | :-------------------------: |
 | ![](screenshots/image3.png) | ![](screenshots/image5.png) |
-
-| My Stats  
-| :-------------------------:  
-| ![](screenshots/image6.png)
+|          My Stats           |
+| :-------------------------: |
+| ![](screenshots/image6.png) |
