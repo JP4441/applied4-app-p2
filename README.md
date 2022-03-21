@@ -49,18 +49,14 @@
 
 # You can test the app [**HERE**](https://project2applied4.herokuapp.com/)
 
-|            Main             |       Create Company        |
+|            Main             |         Add Company         |
 | :-------------------------: | :-------------------------: |
 | ![](screenshots/image1.png) | ![](screenshots/image0.png) |
 
-|    Edit Company Details     |       Create Profile        |
+|       Company Details       |        Edit Profile         |
 | :-------------------------: | :-------------------------: |
 | ![](screenshots/image2.png) | ![](screenshots/image4.png) |
 
-|         My Profile          |       Delete Account        |
-| :-------------------------: | :-------------------------: |
-| ![](screenshots/image3.png) | ![](screenshots/image5.png) |
-
-|          My Stats           |
-| :-------------------------: |
-| ![](screenshots/image6.png) |
+|        Profile View         |       Delete Profile        |            Stats            |
+| :-------------------------: | :-------------------------: | :-------------------------: |
+| ![](screenshots/image3.png) | ![](screenshots/image5.png) | ![](screenshots/image6.png) |
