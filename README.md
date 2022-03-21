@@ -53,10 +53,10 @@
 | :-------------------------: | :-------------------------: |
 | ![](screenshots/image1.png) | ![](screenshots/image0.png) |
 
-|       Company Details       |        Edit Profile         |
+|       Company Details       |        Profile View         |
 | :-------------------------: | :-------------------------: |
-| ![](screenshots/image2.png) | ![](screenshots/image4.png) |
+| ![](screenshots/image2.png) | ![](screenshots/image3.png) |
 
-|        Profile View         |       Delete Profile        |            Stats            |
+|        Profile Edit         |       Delete Profile        |            Stats            |
 | :-------------------------: | :-------------------------: | :-------------------------: |
-| ![](screenshots/image3.png) | ![](screenshots/image5.png) | ![](screenshots/image6.png) |
+| ![](screenshots/image4.png) | ![](screenshots/image5.png) | ![](screenshots/image6.png) |
