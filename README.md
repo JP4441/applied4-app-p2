@@ -1,21 +1,37 @@
+<div align="center">
+<h1><i>APPLIED4 v.2</h1>
+<h5>SEI 48 Project II<h5>
+</div>
+
+<div align="center">
+<a href="https://github.com/JP4441/applied4-app-p2/issues">Report Bug</a>
+</div>
+
+<h4>Thank you for taking the time to look at my project! Keeping track of jobs applied, persons of interest contacted, and company specifics can be tricky. This app was created with career search best practices in mind with hopes to help fellow students maximize their chances of landing that dream job.<h4>
+
+# Details:
+
+- Type of website: Dynamic.
+- Time of completion: 7 days.
+- Started last day of week 5 during bootcamp.
+
 # Applied4 - Application Tracker App
 
-A simple app where people can keep track of their job applications:
-
-- Add companies you're interested in, and information about them such as person of interest, questions to ask, note sent, when you applied for it, etc. If you applied less than 10 days ago the company button turns green, if between 10 and 20 days it turns yellow, and if your application is 20+ days old, it turns red.
-- Keep all your important information in one place: skills, elevator pitch, personal statement, brand statement, etc.
+- This app does three things: 1. Lets users create company profiles with important details, 2. lets users edit the date of when they sent their application. 3. lets users to create their own profile where they can keep information about themselves such as: elevator pitch, personal statement, brand statement, smart questions to ask, etc.
+- If the application was sent less than 10 days ago the company's button turns green, if it was sent between 10 and 20 days it turns yellow, and if the application is 20+ days old, it turns red. This was done with the intention of providing visual cues to applicants so they can keep track of time, and when to send follow-ups or not.
 
 # Features:
 
 - Login and Sign up
 - Add, modify, and delete companies and profile
-- Visual cues on age of applications
+- Time passed from date of application visual cues
 - Profile Delete
 - Mobile friendly
 
 # Next Steps:
 
-- Fix bugs, add statistics page
+- Fix CSS bugs.
+- Complete statistics page so users can see number of applications sent within last 6 weeks.
 
 # Technologies Used
 
