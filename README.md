@@ -7,7 +7,7 @@
 <a href="https://github.com/JP4441/applied4-app-p2/issues">Report Bug</a>
 </div>
 
-<h4>Thank you for taking the time to look at my project! Keeping track of jobs applied, persons of interest contacted, and company specifics can be tricky. This app was created with career search best practices in mind with hopes to help fellow students maximize their chances of landing that dream job.<h4>
+<h4>Thank you for taking the time to look at my project! Keeping track of jobs applied, persons of interest contacted, and company specifics can be tricky. This app was created with career search best practices in mind and hopes to help fellow students maximize their chances of landing that dream job.<h4>
 
 # Details:
 
@@ -47,7 +47,7 @@
 - Heroku
 - Adobe Illustrator
 
-# Play the game [**HERE**](https://project2applied4.herokuapp.com/)
+# You can test the app[**HERE**](https://project2applied4.herokuapp.com/)
 
 |            Main             |    Edit Company Details     |
 | :-------------------------: | :-------------------------: |
