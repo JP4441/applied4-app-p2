@@ -47,12 +47,20 @@
 - Heroku
 - Adobe Illustrator
 
-# You can test the app[**HERE**](https://project2applied4.herokuapp.com/)
+# You can test the app [**HERE**](https://project2applied4.herokuapp.com/)
 
-|            Main             |    Edit Company Details     |
+|            Main             |       Create Company        |
 | :-------------------------: | :-------------------------: |
-| ![](screenshots/image1.png) | ![](screenshots/image2.png) |
+| ![](screenshots/image1.png) | ![](screenshots/image0.png) |
 
-|       Edit My Profile       |
-| :-------------------------: |
-| ![](screenshots/image3.png) |
+|    Edit Company Details     |       Create Profile        |
+| :-------------------------: | :-------------------------: |
+| ![](screenshots/image2.png) | ![](screenshots/image4.png) |
+
+|         My Profile          |       Delete Account        |
+| :-------------------------: | :-------------------------: |
+| ![](screenshots/image3.png) | ![](screenshots/image5.png) |
+
+| My Stats  
+| :-------------------------:  
+| ![](screenshots/image6.png)
